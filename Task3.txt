@@ -1,0 +1,15 @@
+1. Web3 is being used as a connection to the network and user accounts. Similar to metamask, it acts as a host between the contract and users.
+
+2. 
+In buyLoot, the first line is defining the function and ev is being passed in. 
+2 is setting constants web3, accounts, and contract from the current state
+3. Simply says if the current event (ev) isn't handled, the default action should not be either
+4. Sets the current loading state to true
+5. Calls the buyToken method, giving it the current event's id, and
+6. Sends the account and buying price from that account
+7. Calls fetchLoot 
+8. The current state is reset to null
+9. If there was an error
+10. Tell the console there was an error
+11. Alert the buyer there was a failure
+12. The current state is reset to null
